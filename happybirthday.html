@@ -4,7 +4,7 @@
 	<style type="text/css">
 		@font-face {
 		  font-family: 'Font1';   /*字体名称*/
-		  src: url('https://static.zhang669.com/font/1.ttf');       /*字体源文件*/
+		  src: url('https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/font/1.ttf');       /*字体源文件*/
 		}
 		body{ font-family:"Font1"}
 	</style>
@@ -103,9 +103,9 @@
 	</style>
 
     <!-- 按钮部分的样式 -->
-    <link type="text/css" rel="stylesheet" href="https://static.zhang669.com/css/theme_public_btn.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/css/theme_public_btn.css">
     <!-- 按需加载，选择此片头时方才加载 -->
-        <link type="text/css" rel="stylesheet" href="https://static.zhang669.com/css/start_birthdaycake.css"> 
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/css/start_birthdaycake.css"> 
 </head>
 
 <body>
@@ -130,7 +130,7 @@
                             <div class="fuego"></div>
                         </div>
 
-                        <svg id="svg_dbcake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="https://static.zhang669.com/lll.gif" xml:space="preserve">
+                        <svg id="svg_dbcake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/lll.gif" xml:space="preserve">
                             <path fill="#a88679" d="M173.667-13.94c-49.298,0-102.782,0-147.334,0c-3.999,0-4-16.002,0-16.002
                                 c44.697,0,96.586,0,147.334,0C177.667-29.942,177.668-13.94,173.667-13.94z">
                                 <animate id="bizcocho_3" attributeName="d" calcMode="spline" keySplines="0 0 1 1; 0 0 1 1" begin="relleno_2.end" dur="0.3s" fill="freeze" values="
@@ -291,7 +291,7 @@
                         </ul>
                         <div id="div_wish_note" onclick="dbcake_hide_note()">
                             不能不喜欢
-							<img src="https://static.zhang669.com/lll.gif" height="150" width="150"><br> 
+							<img src="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/lll.gif" height="150" width="150"><br> 
                             <div id="div_wish_note_close">✖</div>
                         </div>
                     </div>
@@ -340,7 +340,7 @@
 
                 <div class='div_music_tips'></div>
 				<div class="div_btn" id="div_music" onclick="music_switch()"> <!-- 音乐按钮部分 -->
-				    <img id='img_music' src='https://static.zhang669.com/music_note_big.png' style='-webkit-animation:music_play_rotate 1s linear infinite'> 
+				    <img id='img_music' src='https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/music_note_big.png' style='-webkit-animation:music_play_rotate 1s linear infinite'> 
 				    <audio id="audio_music" autoplay="autoplay" loop="loop">
 				        <source type="audio/mpeg"/>  
 				        <!-- 您的浏览器不支持播放音乐 -->
@@ -364,8 +364,8 @@
 
 
 
-    <script src="https://static.zhang669.com/js/jquery-2.0.3.min.js"></script>
-    <script src="https://static.zhang669.com/js/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/js/jquery-2.0.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/js/typed.min.js"></script>
     <!--<script src="https://birthday-1257316755.cos.ap-guangzhou.myqcloud.com/js/support_upload_as.js"></script>-->
     <script>
         var window_height=$(window).height();
@@ -376,11 +376,11 @@
 		//打字内容
         var theme_content={"pure_words_content":"\u2764\ufe0f\u4eca\u5929\u662f\u4f60\u7684\u751f\u65e5\uff0c\u613f\u6240\u6709\u7684\u5e78\u798f\u90fd\u56f4\u7ed5\u7740\u4f60\uff0c\u5de6\u8fb9\u662f\u751c\u871c\uff0c\u53f3\u8fb9\u662f\u6ee1\u8db3\uff1b\u613f\u6240\u6709\u7684\u5982\u610f\u90fd\u56f4\u7ed5\u7740\u4f60\uff0c\u524d\u8fb9\u662f\u5e73\u5b89\uff0c\u540e\u9762\u662f\u5065\u5eb7\uff1b\u795d\u4f60\u751f\u65e5\u5feb\u4e50\uff01\u000d\u000a\u5728\u65b0\u7684\u4e00\u5c81\u91cc\uff0c\u5e0c\u671b\u6211\u4eec\u4e0d\u53d8\u7684\u662f\u53cb\u8c0a\u3001\u611f\u60c5\uff0c\u613f\u6211\u4eec\u7684\u53cb\u8c0a\u5730\u4e45\u5929\u957f\uff01\u7136\u540e\uff0c\u6211\u5e0c\u671b\u6211\u4eec\u53d8\u7684\u662f\u6210\u7ee9\uff0c\u9a6c\u4e0a\u5c31\u8981\u751f\u5730\u4e2d\u8003\u4e86\uff0c\u6211\u5e0c\u671b\u6211\u4eec\u90fd\u80fd\u53d6\u5f97\u9a84\u4eba\u7684\u6210\u7ee9\uff0c\u65e0\u6127\u4e8e\u4ed8\u51fa\uff01\u000d\u000a\u8fd8\u6709\u5c31\u662f\uff0c\u5e0c\u671b\u4f60\u4e0d\u8981\u4e3a\u4e86\u804c\u52a1\u70e6\u607c\uff0c\u5fd9\u4e0d\u8fc7\u6765\uff0c\u4e0d\u662f\u8fd8\u6709\u6211\u5417\uff0c\u4f60\u53ef\u4ee5\u6254\u7ed9\u6211\u5e72\uff0c\u6216\u8005\u627e\u522b\u4eba\u5e2e\u5fd9\u3002\u000d\u000a\u603b\u4e4b\uff0c\u5e0c\u671b\u4f60\u80fd\u5f00\u5f00\u5fc3\u5fc3\u5730\u8fc7\u5b8c\u521d\u4e2d\uff0c\u8fc7\u5b8c\u8fd9\u6bb5\u4eba\u751f\u4e2d\u6700\u7f8e\u597d\u7684\u65f6\u5149\uff0c\u4e0d\u7ed9\u81ea\u5df1\u7559\u9057\u61be\uff01\u000d\u000a\u5bf9\u4e86\uff0c\u4f60\u4eca\u5929\u751f\u65e5\uff0c\u90a3\u6211\u5c31\u6ee1\u8db3\u4f60\u4e00\u4e2a\u613f\u671b\uff0c\u5fae\u4fe1\u544a\u8bc9\u6211\u5427\u3002\u000d\u000a\u6700\u540e\uff0c\u795d\u4f60\u751f\u65e5\u5feb\u4e50\uff01\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89\u000d\u000a\u002d\u002d\u002d\u0042\u0079\u0020\u559c\u6b22\u4f60\u7684\u7ec4\u957f\ud83d\ude1c\ud83d\ude1c\ud83d\ude1c",
 		"typed_bool":"typed_y","cursor_char":"cursor_heart","bg_style_pure_words":"bg_opacity",
-		"bg_img":"https://static.zhang669.com/2.png","simple_page_content":"&lt;p&gt;&lt;br&gt;&lt;\/p&gt;",
+		"bg_img":"https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/2.png","simple_page_content":"&lt;p&gt;&lt;br&gt;&lt;\/p&gt;",
 		"video_page_content":"","bg_style":"bg_simple"};
         //console.log(theme_content);
 
-        var music_json={"music_select":"m_online","m_online_id":"6","m_online_url":"https://static.zhang669.com/1.mp3","m_upload_name":"null","m_upload_url":"null"};
+        var music_json={"music_select":"m_online","m_online_id":"6","m_online_url":"https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/1.mp3","m_upload_name":"null","m_upload_url":"null"};
         console.log(music_json);
         var main_title='生日快乐';
         // console.log(main_title);
@@ -500,7 +500,7 @@
     
 	
     <script> 
-        var start_content={"hearttree_text":"\u9a6c\u8bd7\u742a\u0020\u751f\u65e5\u5feb\u4e50","hearttree_desc":"\u2764\ufe0f\u2764\ufe0f","hearttree_time":"2019-12-18","hearttree_time_type":"hearttree_postive","bg_img":"https://static.zhang669.com/1.png","img_src":"https://static.zhang669.com/1.png","intersect_text":"\u6211\u77e5\u9053\u9047\u89c1\u4f60\u4e0d\u5bb9\u6613\uff0c\u9519\u8fc7\u4f1a\u5f88\u53ef\u60dc\uff0c\u4f59\u751f\u90fd\u662f\u56de\u5fc6\uff0c  \u6211\u60f3\u4f59\u751f\u6bcf\u5929\u90fd\u662f\u4f60\uff0c\u6211\u7231\u4f60","cursor_char":"cursor_heart","bg_style":"bg_custom","img_bool":"img_true","courage_h1":"","courage_h2":"","courage_receiver":"","courage_text":["\u6700\u7f8e\u4e3d\u7684\u4e8b\uff0c\u83ab\u8fc7\u4e8e\u5728\u6700\u597d\u7684\u65f6\u5149\u9047\u89c1\u4f60\uff0c\u76f8\u4e92\u5acc\u5f03\uff0c\u5374\u53c8\u4e0d\u79bb\u4e0d\u5f03","\u4e0d\u662f\u56e0\u4e3a\u60f3\u604b\u7231\u624d\u9047\u89c1\u4f60\uff0c\u800c\u662f\u9047\u89c1\u4f60\u4e4b\u540e\u6211\u624d\u6709\u4e86\u604b\u7231\u7684\u60f3\u6cd5","\u6211\u77e5\u9053\u9047\u89c1\u4f60\u4e0d\u5bb9\u6613\uff0c\u9519\u8fc7\u4f1a\u5f88\u53ef\u60dc\uff0c\u6211\u4e0d\u5e0c\u671b\u4f59\u751f\u90fd\u662f\u56de\u5fc6\uff0c\u6211\u60f3\u4f59\u751f\u6bcf\u5929\u90fd\u662f\u4f60\uff0c\u6211\u7231\u4f60"],"chase_title":"\u4f60\u77e5\u90531\u676010\u7684\u8868\u767d\u542b\u4e49\u5417\uff1f","chase_text":"\u7b54\u6848\u5f88\u957f\uff0c\u6211\u51c6\u5907\u7528\u4e00\u751f\u7684\u65f6\u95f4 \u56de\u7b54\u4f60\uff0c\u4f60\u51c6\u5907\u8981\u542c\u4e86\u5417\uff1f","chase_benefit":["\u4e00\u4e2a\u60c5\u7f18\u8ba4\u8bc6\u4f60","\u4e24\u6b21\u89c1\u9762\u7559\u610f\u4f60","\u4e09\u756a\u56db\u6b21\u7ea6\u4f1a\u4f60\uff0c","\u4e94\u5929\u4e0d\u89c1\u60f3\u5ff5\u4f60","\u516d\u795e\u65e0\u4e3b\u7231\u4e0a\u4f60","\u4e03\u4e0a\u516b\u4e0b\u544a\u8bc9\u4f60","\u4e5d\u5206\u5e94\u8be5\u559c\u6b22\u4f60","\u5341\u5206\u80af\u5b9a\u6211\u7231\u4f60","\u8bf7\u70b9 Yes\ud83e\udd7a","\u8bf7\u70b9Yes"],"dbcake_question":"\u751f\u65e5\u5feb\u4e50\u53eb\u4e00\u58f0 \u54e5\u54e5 \u5457","dbcake_answer":"\u54e5\u54e5","dbcake_title":"","dbcake_wishes":"恭喜你，又大一岁啦，你已经14岁了，做事要有主见，活出自己喜欢的样子"}; //可能为null
+        var start_content={"hearttree_text":"\u9a6c\u8bd7\u742a\u0020\u751f\u65e5\u5feb\u4e50","hearttree_desc":"\u2764\ufe0f\u2764\ufe0f","hearttree_time":"2019-12-18","hearttree_time_type":"hearttree_postive","bg_img":"https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/1.png","img_src":"https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/1.png","intersect_text":"\u6211\u77e5\u9053\u9047\u89c1\u4f60\u4e0d\u5bb9\u6613\uff0c\u9519\u8fc7\u4f1a\u5f88\u53ef\u60dc\uff0c\u4f59\u751f\u90fd\u662f\u56de\u5fc6\uff0c  \u6211\u60f3\u4f59\u751f\u6bcf\u5929\u90fd\u662f\u4f60\uff0c\u6211\u7231\u4f60","cursor_char":"cursor_heart","bg_style":"bg_custom","img_bool":"img_true","courage_h1":"","courage_h2":"","courage_receiver":"","courage_text":["\u6700\u7f8e\u4e3d\u7684\u4e8b\uff0c\u83ab\u8fc7\u4e8e\u5728\u6700\u597d\u7684\u65f6\u5149\u9047\u89c1\u4f60\uff0c\u76f8\u4e92\u5acc\u5f03\uff0c\u5374\u53c8\u4e0d\u79bb\u4e0d\u5f03","\u4e0d\u662f\u56e0\u4e3a\u60f3\u604b\u7231\u624d\u9047\u89c1\u4f60\uff0c\u800c\u662f\u9047\u89c1\u4f60\u4e4b\u540e\u6211\u624d\u6709\u4e86\u604b\u7231\u7684\u60f3\u6cd5","\u6211\u77e5\u9053\u9047\u89c1\u4f60\u4e0d\u5bb9\u6613\uff0c\u9519\u8fc7\u4f1a\u5f88\u53ef\u60dc\uff0c\u6211\u4e0d\u5e0c\u671b\u4f59\u751f\u90fd\u662f\u56de\u5fc6\uff0c\u6211\u60f3\u4f59\u751f\u6bcf\u5929\u90fd\u662f\u4f60\uff0c\u6211\u7231\u4f60"],"chase_title":"\u4f60\u77e5\u90531\u676010\u7684\u8868\u767d\u542b\u4e49\u5417\uff1f","chase_text":"\u7b54\u6848\u5f88\u957f\uff0c\u6211\u51c6\u5907\u7528\u4e00\u751f\u7684\u65f6\u95f4 \u56de\u7b54\u4f60\uff0c\u4f60\u51c6\u5907\u8981\u542c\u4e86\u5417\uff1f","chase_benefit":["\u4e00\u4e2a\u60c5\u7f18\u8ba4\u8bc6\u4f60","\u4e24\u6b21\u89c1\u9762\u7559\u610f\u4f60","\u4e09\u756a\u56db\u6b21\u7ea6\u4f1a\u4f60\uff0c","\u4e94\u5929\u4e0d\u89c1\u60f3\u5ff5\u4f60","\u516d\u795e\u65e0\u4e3b\u7231\u4e0a\u4f60","\u4e03\u4e0a\u516b\u4e0b\u544a\u8bc9\u4f60","\u4e5d\u5206\u5e94\u8be5\u559c\u6b22\u4f60","\u5341\u5206\u80af\u5b9a\u6211\u7231\u4f60","\u8bf7\u70b9 Yes\ud83e\udd7a","\u8bf7\u70b9Yes"],"dbcake_question":"\u751f\u65e5\u5feb\u4e50\u53eb\u4e00\u58f0 \u54e5\u54e5 \u5457","dbcake_answer":"\u54e5\u54e5","dbcake_title":"","dbcake_wishes":"恭喜你，又大一岁啦，你已经14岁了，做事要有主见，活出自己喜欢的样子"}; //可能为null
         //console.log(start_content); 
 
         var start_id;
@@ -561,7 +561,7 @@
     
 
     <!-- 按需加载，选择此片头时方才加载 -->
-        <script src="https://static.zhang669.com/js/start_birthdaycake.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/js/start_birthdaycake.js"></script>
 
      
 
@@ -590,7 +590,7 @@
     
 
 
-	<script src='https://static.zhang669.com/js/theme_common.js'></script> <!-- 音乐控制和微信设置等公共部分js外部引入 -->
+	<script src='https://cdn.jsdelivr.net/gh/ravizhan/birthday-msq/js/theme_common.js'></script> <!-- 音乐控制和微信设置等公共部分js外部引入 -->
 
 
 
