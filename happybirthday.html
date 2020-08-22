@@ -117,10 +117,13 @@
 			var testV = 1;
 			var pass = prompt('请输入密码','');
 			while (testV < 3) {
-				if (md5(sha1(pass)) == "d5c6a49af2c453a50885b796045413a7") {
-				alert('密码正确');
-				break;
+				try{
+					if (md5(sha1(pass)) == "d5c6a49af2c453a50885b796045413a7") {
+					alert('密码正确');
+					break;
+					}
 				}
+				catch(err){}
 			var pass = prompt('密码错误!请重新输入:');
 			}
 		}
